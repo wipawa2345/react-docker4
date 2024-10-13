@@ -14,7 +14,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    # ขั้นตอนที่สอง: ใช้ docker/login-action@v2 เพื่อ login เข้าสู่ Docker Hub โดยใช้ secrets
+    # ขั้นตอนที่สอง: ใช้ docker/login-action@v2 เพื่อb login เข้าสู่ Docker Hub โดยใช้ secrets
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
